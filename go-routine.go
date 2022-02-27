@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+// Contoh Penggunaan Goroutine Sederhana
+
 // Fungsing Says untuk menampilkan string sebanyak 5 kali
 func Says(str string) {
 	for i := 0; i < 5; i++ {
