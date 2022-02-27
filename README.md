@@ -26,4 +26,13 @@ cheers,<br>
 AlfianCikoa
 
 ## Channel
-<p align=justify>Channel Merupakan</p>
+<p align=justify>Channels adalah sebuah kanal yang digunakan oleh konkuren goroutine untuk berkomunikasi. Mekanisme yang digunakan adalah serah terima data lewat channel yang sudah disiapkan. Channel dapat difungsikan sebagai pengirim data di sebuah goroutine dan bisa juga difungsikan sebagai penerima di goroutine lainnya. Proses pengiriman dan penerimaan data pada channel bersifat <b>blocking</b> atau <b>Assynchronous</b>.</p><br>
+
+Cara Deklarasi sebuah channel:
+```
+var nama_channel = make(chan type_data)
+#contoh
+var c = make(chan string)
+atau
+c := make(chan string)
+```
