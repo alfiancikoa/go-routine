@@ -6,4 +6,7 @@ lebih ringan hanya memerlukan kurang lebih 2 KB memory saja untuk satu buah goro
 tidak saling tunggu dengan goroutine lain dan juga eksekusinya dijalankan di multi core processor sehingga kita dapat menentukan berapa banyak core yang aktif sesuai dengan kebutuhan.</p>
 <br>
 
-
+Penggunaan goroutine sangat sederhana, hanya menambahkan keyword go sebelum memanggil fungsi yang diinginkan. seperti contoh:
+```
+go f(x,y,z)
+```
