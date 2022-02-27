@@ -24,3 +24,6 @@ fmt.Scanln(&x)
 Terimakasih sudah membaca<br>
 cheers,<br>
 AlfianCikoa
+
+## Channel
+<p align=justify>Channel Merupakan</p>
